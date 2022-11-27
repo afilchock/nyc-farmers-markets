@@ -15,7 +15,7 @@ p {
     font-family: 'Roboto', sans-serif;
     white-space: pre-line;
   }
-  #song {
+  #photos {
     border: 5px solid rgb(16, 29, 55);
     background-color: rgb(230, 168, 110);
     display: flex;
@@ -26,4 +26,14 @@ p {
     margin: 0 auto;
     color: rgb(15, 10, 4);
   }
- 
+  #bookshelf {
+    border: 5px solid rgb(16, 29, 55);
+    background-color: rgb(121, 161, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(15, 10, 4);
+  }
