@@ -1,4 +1,11 @@
-﻿Borough,Market Name,Street Address,Community District,Latitude,Longitude,Days of Operation,Hours of Operations,Season Dates,Accepts EBT,Open Year-Round,Stellar Cooking Demonstrations,Food Activities for Kids,Location Point
+﻿{
+"type": "FeatureCollection",
+
+"features": [
+{ "type":}
+]
+
+
 Brooklyn,Teens for Food Justice Fresh Food Box & Farmstand at Brownsville Collaborative Middle School,85 Watkins Street,306,40.670986,-73.908194,Tuesday,4-6pm,Year-round,No,Yes,No,No,"(40.670986, -73.908194)"
 Manhattan,Morningside Park's Down to Earth Farmers' Market,W 110th St & Manhattan Ave,107,40.801155,-73.959647,Saturday,9am-4pm (winter closes at 3pm),Year-Round,Yes,Yes,No,No,"(40.801155, -73.959647)"
 Bronx,170 Farm Stand,E 170th St & Townsend Ave,204,40.839882,-73.916783,Wednesday,2:30pm-6:30pm,8/12/20-11/25/20,Yes,No,No,No,"(40.839882, -73.916783)"
