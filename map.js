@@ -6,7 +6,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(farmersmarketMap);
 
-farmersmarketMap.setView([40.7128, -74.0060], 16);
+farmersmarketMap.setView([40.7128, -74.0060], 12);
+
 const teensforfoodjusticeMarket = L.marker([40.670986, -73.908194]).addTo(farmersmarketMap);
 teensforfoodjusticeMarket.bindPopup("<b>Teens for Food Justice Fresh Food Box & Farmstand at Brownsville Collaborative Middle School</b> <p>85 Watkins Street</p>");
 
