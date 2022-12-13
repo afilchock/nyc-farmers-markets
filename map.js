@@ -8,6 +8,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 farmersmarketMap.setView([40.7128, -74.0060], 12);
 
+// show borough median income on the map
+L.geoJSON(nyc, {
+    onEachFeature: function(feature, layer) {
+        layer.bindPopup("<h3>" + feature.properties.borough + "</h3> <hr> <h3>" + feature.properties.neighborhood + "</h3> <hr> <h3>" + feature.properties.income + "</h3>");
+    }
+}).addTo(farmersmarketMap);
+
+
 const teensforfoodjusticeMarket = L.marker([40.670986, -73.908194]).addTo(farmersmarketMap);
 teensforfoodjusticeMarket.bindPopup("<b>Teens for Food Justice Fresh Food Box & Farmstand at Brownsville Collaborative Middle School</b> <p>85 Watkins Street</p>");
 

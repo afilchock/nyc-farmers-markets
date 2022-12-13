@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(148, 227, 165);
+    background-color: rgb(191, 239, 201);
   }
   h1 {
     font-size: 50px;
@@ -16,19 +16,17 @@ p {
     white-space: pre-line;
   }
   #photos {
-    border: 5px solid rgb(16, 29, 55);
-    background-color: rgb(230, 168, 110);
+    background-color: rgb(234, 229, 225);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     color: rgb(15, 10, 4);
   }
   #bookshelf {
-    border: 5px solid rgb(16, 29, 55);
-    background-color: rgb(121, 161, 231);
+    background-color: rgb(156, 188, 242);
     display: flex;
     flex-direction: column;
     justify-content: center;
