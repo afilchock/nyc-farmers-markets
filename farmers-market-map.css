@@ -2,3 +2,36 @@
   height: 600px; 
   width: 75%;
 }
+body {
+  background-color: rgb(191, 239, 201);
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  white-space: pre-line;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(59, 59, 59);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  white-space: pre-line;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  white-space: pre-line;
+}
+.formatText {
+  color: rgb(59, 59, 59);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  white-space: pre-line;
+}

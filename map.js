@@ -139,3 +139,10 @@ southwilliamsburgMarket.bindPopup("<b>South Williamsburg Greenmarket</b> <p>Tayl
 const rbhopeballfieldMarket = L.marker([40.697175, -73.916878]).addTo(farmersmarketMap);
 rbhopeballfieldMarket.bindPopup("<b>RB HopeBall Field Farmers Market</b> <p>249 Grove St</p>");
 
+// show nearest public housing complex on the map
+const polyline = L.polyline([
+    [40.672524, -74.00871],
+    [40.675235750129374, -74.00806220542425]
+], {
+    color: 'green'
+}).addTo(farmersmarketMap);
